@@ -33,7 +33,7 @@ small_word = "mom"
 
 smaller_word = "wow"
 
-bigger_word = big_word + small_word + smaller_word # Use String concatenation to add "wow" and "mom" to big_word
+bigger_word = big_word + smaller_word + small_word # Use String concatenation to add "wow" and "mom" to big_word
 
 new_letter_count = big_word.length + small_word.length + smaller_word.length
 
