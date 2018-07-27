@@ -37,7 +37,7 @@ giant_string = big_word + small_word + smaller_word
 
 bigger_word = big_word.length + small_word.length + smaller_word.length # Use String concatenation to add "wow" and "mom" to big_word
 
-new_letter_count = bigger_word.size
+new_letter_count = bigger_word
 
 puts "There are now #{bigger_word} in #{giant_string}"
 
