@@ -3,7 +3,7 @@
 
 your_favorite_word = "Alice"
 
-puts "My favorite word is Alice"
+puts "My favorite word is #{your_favorite_word}"
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
@@ -21,7 +21,7 @@ puts lowercased_phrase
 
 # Challenge 4: Count how many letters are in that big_word
 
-big_word = "supercalifragilisticexpialidocious"
+big_word = "supercalifragilisticexpialidocious".length
 
 letter_count = big_word.length # Put a . after big_word and use a String method.
 
